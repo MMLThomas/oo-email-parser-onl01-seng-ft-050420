@@ -10,13 +10,10 @@ class EmailAddressParser
     rows = email_list.split(",")
   end
 
-  def initialize(emails)
-    @email = emails
-  end
+ #def initialize(emails)
+  #  @email = emails
+  #end
   
-  def parse
-    @email.
-  end
     
   
 end
