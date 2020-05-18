@@ -8,6 +8,8 @@ class EmailAddressParser
   
   def self.parse(email_list)
     rows = email_list.split(",")
+    
+    email = self.new
   end
 
  #def initialize(emails)
