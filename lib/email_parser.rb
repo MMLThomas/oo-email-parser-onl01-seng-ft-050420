@@ -9,8 +9,8 @@ class EmailAddressParser
   def self.parse(email_list)
     rows = email_list.split(",")
     
-    EmailAddressParser = self.new
-    EmailAddressParser.email = email
+    parser = self.new
+    parser.email = email
   end
 
  #def initialize(emails)
