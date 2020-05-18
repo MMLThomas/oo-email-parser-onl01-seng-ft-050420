@@ -15,8 +15,6 @@ class EmailAddressParser
     parsed_emails.reject! {|emails| emails.empty?}
     parsed_emails
   end
-
-  end
   
   
     
