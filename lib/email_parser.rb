@@ -7,7 +7,7 @@ class EmailAddressParser
   attr_accessor :email
   
   def self.parse(email_list)
-    
+    rows = 
   end
 
   def initialize(emails)
