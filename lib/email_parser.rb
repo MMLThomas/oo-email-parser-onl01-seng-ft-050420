@@ -10,7 +10,7 @@ class EmailAddressParser
     rows = email_list.split(",")
     
     EmailAddressParser = self.new
-    
+    EmailAddressParser.email = email
   end
 
  #def initialize(emails)
